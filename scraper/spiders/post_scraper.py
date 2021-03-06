@@ -35,3 +35,4 @@ process = CrawlerProcess(settings={
 })
 
 process.crawl(PostScraper)
+process.start()
